@@ -5,8 +5,6 @@ COPY ./package.json ./
 RUN npm install
 COPY . .
 
-
-ENV MONGO_URL=mongodb+srv://pavan:pavan@shapeai.ujqaw.mongodb.net/zomato?retryWrites=true&w=majority
 ENV GOOGLE_CLIENT_ID=448325328376-0noqmrddvmqm9lp1jin5c42jjna76ldc.apps.googleusercontent.com
 ENV GOOGLE_CLIENT_SECRET=_ROue0E0m9cfiC6bLEJ6iMCz
 ENV AWS_S3_ACCESS_KEY=AKIA2G4RARAPZOQ3EM2Y
